@@ -7,7 +7,7 @@ This code assumes you have the following libs on your classpath:
 * [Gson](https://code.google.com/p/google-gson/)
 
 ##Example
-###Convert To Json
+###Convert To JSON
 ```java
 // create a Joise module chain
 ModuleBasisFunction basis = new ModuleBasisFunction();
@@ -42,7 +42,7 @@ String json = converter.toJson(auto.getModuleMap());
   }
 }
 ```
-###Convert From TML
+###Convert From JSON
 ```
 // convert from Json to a Joise instance
 Joise j = new Joise(converter.fromJson(json));
